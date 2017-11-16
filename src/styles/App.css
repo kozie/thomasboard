@@ -3,12 +3,13 @@
 /* Base Application Styles */
 body {
   color: #fff;
-  background: #222;
+  background: linear-gradient(90deg,  #fdcbde 0%,#f4f4a6 33%,#b4edf3 66%,#fdcbde 100%);
 }
 
 h1 {
 	text-align: center;
 	font-family: "Lobster";
+    color: #333;
 }
 
 .sound-container {
@@ -19,4 +20,9 @@ h1 {
 .sound-label {
 	display: block;
 	margin-top: 1em;
+    color: #333;
+}
+
+.sound {
+    background: linear-gradient(to bottom, #f1e767 0%,#feb645 100%);
 }
