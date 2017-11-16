@@ -59,7 +59,7 @@ function getDefaultModules() {
 module.exports = {
   srcPath: srcPath,
 	path: path.resolve('/assets'),
-  publicPath: 'assets/',
+  publicPath: '/thomasboard/assets/',
   port: dfltPort,
   getDefaultModules: getDefaultModules
 };
